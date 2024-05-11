@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--Fathan Askar (1301213374) IF-45-04-->
+<!-- Basic HTML Syntax--> 
+<html>
+    <head>
+        <title>Tugas 1 ABP</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <!-- EXCERCISE-->
+        <h2>EXCERCISE</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Nama Lengkap</th>
+                <th colspan="2">Gelar Pendidikan </th>
+                <th rowspan="2">Age</th>
+            </tr>
+            <tr>
+                <th>Sarjana</th>
+                <th>Magister</th>
+            </tr>
+            <tr>
+                <td>Fathan Askar (1301213374) IF-45-04</td>
+                <td>S.Kom</td>
+                <td>M.Sc</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Lionel Messi</td>
+                <td>S.SiKom</td>
+                <td>M.T</td>
+                <td>40</td>
+            </tr>
+        </table> 
+    <h3>Mempraktikan html yang teradpat pada file presentasi</h3>
+    <img src="MessiWinningWC.jpeg" width="300" height="200">
+    <body>
+        <p style="color:green;border:solid">
+            Nama: <b>Fathan Askar</b><br>
+            NIM: <i>1301213374</i><br>
+            Kelas: <u>IF-45-04</u><br>
+            <b><i><u>Combined</u></i></b>
+        </p>
+        <p>
+            Who is <a href="https://en.wikipedia.org/wiki/Lionel_Messi">Lionel Messi</a>?<br>
+            <textarea name="message" rows="8" cols="50">Lionel Messi is an Argentine professional football player widely regarded as one of the greatest footballers of all time. Born on June 24, 1987, in Rosario, Argentina, Messi began his career at a young age with the Newell's Old Boys youth team before moving to Barcelona's famed youth academy, La Masia, at the age of 13.</textarea><br>
+                
+            <audio controls>
+                <source src="Messi WC sound.mp3" type="audio/mp3"> <source src="horse.mp3" type="audio/mpeg">
+            </audio><br>
+            <video width="400" controls>
+                <source src="Messi WC vid.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
+            </video>
+            <p>
+            Video courtesy of
+            <a href="https://www.youtube.com/watch?v=ZmKy_fnRM_E&t=7s" target="_blank">MagicalMessi</a>. </p>
+            Greatest Football Players of All Time<hr>
+            <ol>
+                <li>Lionel Messi</li>
+                <li>Pele</li>
+                <li>Diego Maradona</li>
+                <li>Cristiano Ronaldo</li>
+            </ol>
+            Why is <a href="https://en.wikipedia.org/wiki/Lionel_Messi">Lionel Messi</a> the G.O.A.T?<hr>
+            <ul>
+                <li>Most Ballon D'ors of all time</li>
+                <li>Most Golden Shoe Winner of all Time</li>
+                <li>World Cup and Copa America Winner</li>
+                <li>Most trophies won by a player in football</li>
+            </ul>
+            Leo's Stats
+            <table border="1">
+                <tr> 
+                      <th>Appearances</th>
+                      <th>Goals</th> 
+                      <th>Assists</th>
+                </tr>
+                <tr>
+                    <td>1048</td>
+                    <td>821</td>
+                    <td>362</td>
+                </tr>
+              </table>
+        </p>
+        
+    </body>
+    Subscribe to our weekly newsletter!
+    <form>
+        First name:<br>
+        <input type="text" name="firstname" /><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        Password:<br>
+        <input type="password" /><br>
+        Tell us about yourself!<br>
+        <textarea></textarea><br>
+        When do you want the subscirption to start?<br>
+        <input type="date" name="bday" /><br>
+        <input type="submit" value="Subscribe" />
+    </form><br>
+    Do you like the website?<br>
+    <input type="radio" name="gender" value="male"/> Yes <br />
+    <input type="radio" name="gender" value="female" /> No <br>
+    Who do you think is the G.O.A.T?
+    <select name="goatDebate">
+		<option value="Lionel Messi">Lionel Messi</option>
+		<option value="Pele">Pele</option>
+        <option value="Diego Maradona">Diego Maradona</option>
+        <option value="Cristiano Ronaldo">Cristiano Ronaldo</option>
+    </select><br><br>
+    Do yo think there are any other footballers below that should be included in this list of G.O.A.T Debate?<br>
+    <input type="checkbox" name="data[]" /> Johan Cryuff
+    <input type="checkbox" name="data[]" /> Zinedine Zidane
+    <input type="checkbox" name="data[]" /> Franz Beckenbauer
+    <input type="checkbox" name="data[]" /> Other<br>
+    Tell us why why they should be included in the G.O.A.T Debate!
+    <input type="file" /><br><br>
+    If you didn't place Messi as your G.O.A.T then where do you rank him all time?<br>
+    Messi is ranked number <input type="number" name="quantity" min="2" max="10" /> in my Opinion.<br>
+    <input type="submit"  value="Submit"/>
+
+</html>

@@ -1,0 +1,7 @@
+div{
+    width: 50%;
+    height: 50%;
+    background-image: url('GearImg.png');
+    background-size: cover;
+    background-position: center;
+}

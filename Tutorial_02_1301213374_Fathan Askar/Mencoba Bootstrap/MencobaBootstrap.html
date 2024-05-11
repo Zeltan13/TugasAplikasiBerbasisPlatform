@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mencoba Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="h6">Fathan Askar (1301213374) IF-45-04</div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">About Me</a>
+            <a class="navbar-brand" href="#">Favorite Teams</a>
+            <a class="navbar-brand" href="#">Favorite Players</a>
+            <a class="navbar-brand" href="#">Projects</a>
+            <a class="navbar-brand" href="#">Hobbies</a>
+        </nav>
+        <div style="border-top: 3px solid black; margin-top: 10px;"></div>
+        <div class=”container”>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-6 col-md-4 text-left h2"><a style="border: 1px solid black; background-color: grey;">About Me</a></div>
+                <div class="col-12 col-md-8">
+                    <p>Hi! My name is Fathan Askar, and I am a 3rd year student in Telkom University, the best private university in indonesia. I'm
+                        20 years old and I'm originally from Bogor, Indonesia. I'm majoring in informatics, and I have a background of machine learning,
+                        data analysis and I'm currently doing my final project on the usage of LLM's to make a Conversational Recommender System. I'm a 
+                        huge fan of sports, and my favorite sports to watch are Football, F1, Tennis, NBA and NFL. 
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-6 col-md-4 text-left h2"><a style="border: 1px solid black; background-color: grey;">Favorite Players</a></div>
+                <div class="col-12 col-md-8">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Sport</th>
+                                <th scope="col">Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Lionel Andres Messi</td>
+                                <td>Football</td>
+                                <td>36 Years Old</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jayson Tatum</td>    
+                                <td>Basketball</td>
+                                <td>26 Years Old</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Sebastian Vettel</td>
+                                <td>Formula 1</td>
+                                <td>36 Years Old</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Rafael Nadal</td>
+                                <td>Tennis</td>
+                                <td>37 Years Old</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- <div class="container"> -->
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-6 col-md-4 text-left h2"><a style="border: 1px solid black; background-color: grey;">Pictures of My Favorite Player</a></div>
+                <div class="col-12 col-md-8">
+                    <img src="MessiWinningWC.jpeg" class="img-thumbnail" alt="Lionel Messi" style="width: 300px; height: 200px;">
+                    <img src="Jayson Tatum.png" class="img-thumbnail" alt="Jayson Tatum" style="width: 300px; height: 200px;">
+                    <img src="SebVettel.jpg" class="img-thumbnail" alt="Sebastian Vettel" style="width: 300px; height: 200px;">
+                    <img src="Nadal.png" class="img-thumbnail" alt="Rafael Nadal" style="width: 300px; height: 200px;">
+                </div>
+            </div>
+            <div style="border-top: 3px solid black; margin-top: 10px;"></div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="container">
+                        <h4>Join The Fanclub!</h4>
+                        <form class="form-horizontal" action="/action_page.php">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="email">Email:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Confirm Password:</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-success" style="margin-top: 10px;">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6"></div>
+                </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

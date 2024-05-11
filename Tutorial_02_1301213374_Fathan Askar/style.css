@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Selector dengan Elemen HTML */
+h1{
+    /* margin-right: 100px; */
+    padding-left: 445px;
+    font-size: 50px;
+    font-family: 'Arial Narrow';
+}
+h5{
+    /* margin-right: 100px; */
+    padding-left: 445px;
+    font-family: 'Arial Narrow';
+}
+ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    /* padding: 3px 20px; */
+    /* float: left; */
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Arial Narrow';
+    color: #ffffff;
+    padding: 3px 20px;
+    /* background-color: #008ecc; */
+}
+ul li a:hover{
+    background-color: black;
+    border-radius: 3px;
+}
+nav{
+    border-radius: 3px;
+    width: 1032px; 
+    margin: 0 auto; /* center the nav */
+    height: 24px;
+    /* width: 80%;
+    height: 37px; */
+    background-color: blue;
+}
+/* Selector dengan Class Elemen HTML */
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.box1{
+    background-color: limegreen ;
+}
+.box2{
+    background-color: orangered;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: #00BFFF;
+}
+.box5{
+    background-color: orange;
+}
+.box6{
+    background-color: #03C03C;
+}
+.pieChartImg{
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    margin-left: 10px;
+}
+.ThermoImg{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    margin-left: 40px;
+}
+.MonitorImg{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.GearsImg{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.PlayImg{
+    width: 150px;
+    height: 110px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.RocketImg{
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+}
